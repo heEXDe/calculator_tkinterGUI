@@ -1,6 +1,7 @@
 from tkinter import *
 import GUI
 from math import log as log
+from math import sqrt as sqrt
 
 
 def inp_to_txtb(number_or_sign):
