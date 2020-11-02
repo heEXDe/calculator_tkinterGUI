@@ -61,8 +61,6 @@ btnClean.grid(row=1, column=3)
 btnParenthesisL.grid(row=3, column=3)
 btnParenthesisR.grid(row=4, column=3)
 
-# , sticky=W+E
-
 
 def gui_start():
     root.mainloop()
