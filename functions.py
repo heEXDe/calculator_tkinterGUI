@@ -2,6 +2,8 @@ from tkinter import *
 import GUI
 from math import log as log
 from math import sqrt as sqrt
+from math import sin as sin
+from math import cos as cos
 
 
 def inp_to_txtb(number_or_sign):
@@ -15,7 +17,7 @@ def equal():
         equation = GUI.txtBox.get('1.0', 'end-1c')
         result = eval(equation)
         GUI.txtBox.config(state=NORMAL)
-        GUI.txtBox.insert(END, "\n" + str(result))
+        GUI.txtBox.insert(END, "\n" + '= ' + str(result))
         GUI.txtBox.config(state=DISABLED)
     except:
         GUI.txtBox.config(state=NORMAL)
